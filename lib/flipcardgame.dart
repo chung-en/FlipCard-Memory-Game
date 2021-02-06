@@ -29,6 +29,7 @@ class _FlipCardGaneState extends State<FlipCardGane> {
   List<bool> _cardFlips;
   List<GlobalKey<FlipCardState>> _cardStateKeys;
 
+  // get data item
   Widget getItem(int index) {
     return Container(
       decoration: BoxDecoration(
